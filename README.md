@@ -66,7 +66,7 @@ After you're finished please remove all the comments and instructions!
 
 
 ## 🛠 Built With <a name="built-with"></a>
-- React
+- Ruby
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -76,15 +76,11 @@ After you're finished please remove all the comments and instructions!
 
 
 - **[Create a git flow]**
-- **[Use functional Component]**
-- **[Use state and props]**
-- **[Use routing method]**
-- **[Add a redux toolkit]**
-- **[Understand the concept of state management.]**
-- **[Use store, actions and reducers in React.]**
-- **[Connect React and Redux]**
-- **[Connect an existing API via Redux and use the data to display something in a UI.]**
-- **[Apply React best practices and language style guides in code.]**
+- **[We added a morse code]**
+- **[We created a decode_char method]**
+- **[We created a decode_word method]**
+- **[We created a decode method]**
+- **[We ensured that it is working correctly]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,7 +108,6 @@ To get a local copy up and running, follow these steps.
 
 - [git](https://git-scm.com/downloads): A tool for managing source code
 - [Visual Studio Code](https://code.visualstudio.com/): A source code editor
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer): A simple web server utility for Visual Studio Code
 <!--
 Example command:
 
@@ -124,19 +119,18 @@ Example command:
 ### Setup
 
 - Clone this repository to your desired folder: https://donmark2k.github.io/decode-morse/.git
-- Run npm install to install the dependencies.
-- Run npm start to start the app.
+- Run bundle install to install the dependencies.
 
 ### Install
 Install this project with:
 
--  cd bookstore
--  node version 16 or higher
+-  cd decode-morse
+-  ubuntu version 22 or higher
 
 ### Usage
 To run the project, execute the following command:
 
-- npm start
+- ruby decode.rb
 
 ### Run tests
 
@@ -191,7 +185,7 @@ Example:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-- I will add time and date below the nav bar
+- I will add numbers and symbols to the hash table
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
