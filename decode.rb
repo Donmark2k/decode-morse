@@ -1,6 +1,5 @@
-# frozen string literal: true
-
-CODE = {'.-' => 'a',
+CODE = {
+  '.-' => 'a',
   '-...' => 'b',
   '-.-.' => 'c',
   '-..' => 'd',
