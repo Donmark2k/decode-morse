@@ -26,7 +26,7 @@ CODE = {
   '.--' => 'w',
   '-..-' => 'x',
   '-.--' => 'y',
-  '--..' => 'z',
+  '--..' => 'z'
 }
 
 def decode_char(character)
@@ -43,5 +43,5 @@ end
 
 puts decode_char(".-") 
 puts decode_word("-- -.--")
-puts  decode("-- -.--   -. .- -- .")
+puts decode("-- -.--   -. .- -- .")
 puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
