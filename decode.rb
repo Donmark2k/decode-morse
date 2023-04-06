@@ -25,7 +25,7 @@ MORSE_CODE = {
   '-..-' => 'x',
   '-.--' => 'y',
   '--..' => 'z',
-}.freeze
+}
 
 def decode_char(character)
   MORSE_CODE[character].upcase
