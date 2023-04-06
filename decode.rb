@@ -1,7 +1,6 @@
 # frozen string literal: true
 
-CODE = {
-  '.-' => 'a',
+CODE = {'.-' => 'a',
   '-...' => 'b',
   '-.-.' => 'c',
   '-..' => 'd',
@@ -41,7 +40,7 @@ def decode(phrase)
   phrase.split('   ').map { |word| decode_word(word) }.join(' ')
 end
 
-puts decode_char('.-') 
+puts decode_char('.-')
 puts decode_word('-- -.--')
 puts decode('-- -.--   -. .- -- .')
 puts decode('.- -... --- -..- ..-. ..- .-.. .-.. --- ..-. .-. ..- -... .. . ...')
