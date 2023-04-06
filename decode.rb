@@ -25,7 +25,7 @@ CODE = {
   '-..-' => 'x',
   '-.--' => 'y',
   '--..' => 'z'
-}
+}.freeze
 
 def decode_char(character)
   CODE[character].upcase
